@@ -1,16 +1,76 @@
 {
   "display": {
     "annotations": {
-      "function": ["description", "parameter", "return", "example", "throw", "require", "usedby", "since", "see", "todo", "link", "author"],
-      "mixin": ["description", "parameter", "content", "output", "example", "throw", "require", "usedby", "since", "see", "todo", "link", "author"],
-      "placeholder": ["description", "example", "throw", "require", "usedby", "since", "see", "todo", "link", "author"],
-      "variable": ["description", "type", "property", "require", "example", "usedby", "since", "see", "todo", "link", "author"]
+      "function": [
+				"alias",
+        "description", 
+				"todo", 
+				"since", 
+        "parameter", 
+        "return", 
+				"throw", 
+				"require", 
+        "example", 
+				"usedby", 
+				"author",
+				"see", 
+				"link"
+      ],
+
+      "mixin": [
+				"alias",
+        "description", 
+				"todo", 
+				"since", 
+        "parameter", 
+        "content", 
+        "output", 
+        "throw", 
+				"require", 
+				"example", 
+        "usedby", 
+        "author",
+				"see",
+				"link"
+      ],
+
+      "placeholder": [
+				"alias",
+        "description", 
+        "todo", 
+        "since", 
+        "example", 
+        "throw", 
+        "require", 
+        "usedby", 
+        "author",
+        "see", 
+        "link"
+      ],
+      
+      "variable": [
+        "description", 
+        "type", 
+        "todo", 
+        "since", 
+        "property", 
+        "require", 
+        "example", 
+        "usedby", 
+        "author",
+        "see", 
+        "link"
+      ]
     },
+
     "access": ["public", "private"],
     "alias": true,
     "watermark": true
   },
+
   "groups": {
     "undefined": "General"
-  }
+  },
+
+  "privatePrefix": "^[_-]"
 }
