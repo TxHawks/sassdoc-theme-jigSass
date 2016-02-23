@@ -2,7 +2,6 @@
   "display": {
     "annotations": {
       "function": [
-				"alias",
         "description", 
 				"todo", 
 				"since", 
@@ -18,7 +17,6 @@
       ],
 
       "mixin": [
-				"alias",
         "description", 
 				"todo", 
 				"since", 
@@ -35,7 +33,6 @@
       ],
 
       "placeholder": [
-				"alias",
         "description", 
         "todo", 
         "since", 
