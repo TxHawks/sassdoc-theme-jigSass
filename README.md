@@ -1,3 +1,7 @@
-# Flippant SassDoc Theme
-This is a modified version of [SassDoc](https://github.com/SassDoc/sassdoc)'s default theme, currently being used for:
-- [knapsack](http://kni-labs.github.io/knapsack)
+# JigSass SassDoc Theme
+
+This is a slightly modified version of Daniel Box's
+[flippant](https://github.com/dbox/flippant) theme for use in jigSass documentation.
+
+## Install
+`npm i -D TxHawks/sassdoc-theme-jigSass`
