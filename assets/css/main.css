@@ -147,7 +147,7 @@ a {
 }
 a:hover,
 a:hover code {
-    color: #2196F3;
+    color: #09a5d9;
 }
 table p {
     margin: 0 0 0.5rem
@@ -252,7 +252,7 @@ table p {
     right: 0;
     left: 280px;
     padding: 1em 0;
-    background: #2196F3;
+    background: #09a5d9;
     color: #e0e0e0;
     z-index: 4000
 }
@@ -502,13 +502,13 @@ table p {
     text-align: center;
     padding-bottom: .5em;
     margin-bottom: 1em;
-    background: #2196F3;
+    background: #09a5d9;
     text-align: left;
     font-weight: 100;
 }
 .main__heading--secondary {
     font-size: 2.75em;
-    color: #2196F3;
+    color: #09a5d9;
     font-weight: 100;
     padding-top: 0;
     padding-bottom: .5em;
