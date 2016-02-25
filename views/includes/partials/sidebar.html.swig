@@ -1,5 +1,5 @@
 <div class="sidebar__header">
-  <img src="assets/images/{{ ctx.shortcutIcon.url }}" />
+  <img src="assets/images/{{ shortcutIcon.url }}" />
 </div>
 
 <div class="sidebar__body">

@@ -3,10 +3,9 @@
     <h1 class="header__title">
       {% if package.homepage %}
         <a href="{{ package.homepage }}">{% endif %}
-        {{ project_title }}{% if package.version %} - v{{ package.version }}{% endif %}{% if package.homepage %}</a>{% endif %}
-
-    {% else %}
-      {{ project_title }}{% if package.version %} - {{ package.version }}{% endif %}
+        {{ project_title }}{% if package.version %} - v{{ package.version }}{% endif %}</a>
+      {% else %}
+        {{ project_title }}{% if package.version %} - {{ package.version }}{% endif %}
     {% endif %}
   </h1>
     <div class="sassdoc__searchbar  searchbar">
