@@ -2,7 +2,7 @@
   <div class="container">
     <h1 class="header__title">
       {% if package.homepage %}
-        <a href="{{ package.homepage }}">{% endif %}
+        <a href="{{ package.homepage }}">
         {{ project_title }}{% if package.version %} - v{{ package.version }}{% endif %}</a>
       {% else %}
         {{ project_title }}{% if package.version %} - {{ package.version }}{% endif %}
