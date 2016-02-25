@@ -259,7 +259,7 @@ pre[class*='language-'] {
     position: fixed;
     top: 0;
     right: 0;
-    left: 0
+    left: 0;
     padding: 1em 0;
     color: #09a5d9;
     z-index: 4000;
@@ -272,12 +272,13 @@ pre[class*='language-'] {
     }
   }
   .header__title {
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 200;
   }
   @media (min-width: 801px) {
     .header__title {
-      margin-left: 12px;
+      display: inline-table;
+      margin: 0 0 0 24px;
     }
   }
 
@@ -357,6 +358,10 @@ pre[class*='language-'] {
   .searchbar__suggestions code {
     margin-right: .5em
   }
+
+	.sidebar {
+		padding-top: 8.5em
+	}
   @media (min-width: 801px) {
     .sidebar {
       position: fixed;
@@ -368,12 +373,14 @@ pre[class*='language-'] {
       z-index: 2;
       transition: 0.25s cubic-bezier(0.215, 0.61, 0.355, 1)
     }
+
+		.sidebar__logo {
+			width: 72px;
+			height: auto;
+			margin: 24px 6px;
+		}
   }
-  @media (max-width: 800px) {
-    .sidebar {
-      margin-top: 4em
-    }
-  }
+
   .sidebar__annotation {
     color: #5c4863
   }
