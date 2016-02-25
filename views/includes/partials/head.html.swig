@@ -2,7 +2,7 @@
 
 <title>{{ project_title }}{% if package.version %} - v{{ package.version }}{% endif %}</title>
 <link rel="stylesheet" href="assets/css/main.css" />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,500,700' rel='stylesheet' type='text/css'>
+<script type="text/javascript">WebFontConfig={google:{families:["Roboto:400,100,300,500:latin"]}},function(){var e=document.createElement("script");e.src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js",e.type="text/javascript",e.async="true";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}();</script>
 <meta name="viewport" content="width=device-width">
 <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
 
