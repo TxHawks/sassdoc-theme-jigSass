@@ -384,9 +384,12 @@ pre[class*='language-'] {
   .sidebar__annotation {
     color: #5c4863
   }
+  .sassdoc__item {
+    font-size: 0.875rem;
+    margin-left: 3rem;
+  }
   .sidebar__item {
     padding: 0;
-    margin-left: 2rem;
   }
   .sidebar__item a {
     box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
